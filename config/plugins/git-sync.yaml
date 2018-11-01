@@ -1,22 +1,18 @@
 enabled: true
 folders:
   - pages
-  - themes
-  - plugins
-  - config
-  - data
 sync:
   on_save: true
   on_delete: true
   on_media: true
-  cron_enable: true
+  cron_enable: false
   cron_at: '0 12,23 * * *'
-repository: 'https://git.teuz.de/Marc/grav.git'
-user: Marc
-password: gitsync-def502001c5ee8f729bef3e13e03e9e962fa3d25d0bdb1da854dd151aa740b52bdc83f40fbb4756c130da1caaaf2ade4cc88a852ac61b5f15e7d794bd89aae84bead25651a5e001e83fb87d80f662f72414fca4d1a1dacbdac76cdfb3d7a68a20d0b3875
-webhook: 'https://viqu.de/_git-sync-b0302ce12602'
+repository: 'https://github.com/realmarc/viqutest.git'
+user: realmarc
+password: gitsync-def502001b8ff01168986f3987463c7592a7284dec7e2985143289bb77722bc817b49a2e037000dcffa433a29aa3dacaccc30fe31a12b85480842f4e118f495dfe44b3a73094bee2340bad8cd5cfedbd2d31c8f851c51e6420f541eeca5950e737cb0b
+webhook: /_git-sync-a96cd2ffad91
 webhook_enabled: '1'
-webhook_secret: d9533921d51f2e8a493859cfde47ed6ec2c946318c9e4e6e
+webhook_secret: 516630a5758a8779dd6e7bd938a4d1e6d00753d0b91d430d
 branch: master
 remote:
   name: origin
@@ -24,6 +20,6 @@ remote:
 git:
   author: gituser
   name: GitSync
-  email: git@viqu.de
+  email: git-sync@trilby.media
   bin: git
 logging: false

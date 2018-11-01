@@ -1,0 +1,8 @@
+enabled: false
+forcehttps: false
+inline_css_replace: true
+pullzone: viqu-d776.kxcdn.com
+tags: a|link|img|script
+tag_attributes: href|src
+extensions: jpeg|jpg|png|gif|ttf|otf|svg|woff|xml|js|css|ico|woff
+valid_formats: html

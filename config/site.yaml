@@ -1,0 +1,20 @@
+title: 'VIQU.DE - We make meta.'
+default_lang: en
+author:
+  name: Marc
+  email: hi@viqu.de
+taxonomies:
+  - category
+  - tag
+  - month
+metadata:
+  description: 'VIQU.DE | We are about: Stoicism, Minimalism, a simple life, Micro Adventures, #VIQU'
+summary:
+  enabled: true
+  format: short
+  size: 300
+  delimiter: '==='
+redirects:
+  /changelog: /blog/the-urban-jungle
+blog:
+  route: ''

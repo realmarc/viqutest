@@ -1,0 +1,29 @@
+enabled: true
+folders:
+  - pages
+  - themes
+  - plugins
+  - config
+  - data
+sync:
+  on_save: true
+  on_delete: true
+  on_media: true
+  cron_enable: false
+  cron_at: '0 12,23 * * *'
+repository: 'https://git.teuz.de/Marc/grav.git'
+user: Marc
+password: gitsync-def502001c5ee8f729bef3e13e03e9e962fa3d25d0bdb1da854dd151aa740b52bdc83f40fbb4756c130da1caaaf2ade4cc88a852ac61b5f15e7d794bd89aae84bead25651a5e001e83fb87d80f662f72414fca4d1a1dacbdac76cdfb3d7a68a20d0b3875
+webhook: /_git-sync-b0302ce12602
+webhook_enabled: '1'
+webhook_secret: d9533921d51f2e8a493859cfde47ed6ec2c946318c9e4e6e
+branch: master
+remote:
+  name: origin
+  branch: master
+git:
+  author: gituser
+  name: GitSync
+  email: git-sync@trilby.media
+  bin: git
+logging: false

@@ -1,7 +1,7 @@
 enabled: false
-route: /random
+route: /blog
 redirect: true
 filters:
   category:
-    - blog
+    - stoicism
 filter_combinator: and
